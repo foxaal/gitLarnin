@@ -1,12 +1,2 @@
-dobee dobee do bla bla1
-<<<<<<< HEAD
-RONCO
-=======
-dadadad
-
-gdgdgdgdg
-
-bleeb dodo
-
->>>>>>> experimental
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVvv
+that is better
