@@ -1,1 +1,7 @@
 do bing bla bla2 bla2 bla2
+<<<<<<< HEAD
+EXPERIMENTAL BRANCH!!
+=======
+THIS IS DA EXP2 BRANCH DUMBASS!!!
+
+>>>>>>> exp2
