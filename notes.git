@@ -1,0 +1,19 @@
+# go to directory and start new project
+git init
+
+# add some files and not others, and you can do this again later when creating new file
+git add <file-selection>
+
+# what is about to be committed
+git diff --cached
+
+# commit poi-manently
+git commit
+
+# make changes to a bunch of files and just commit those
+git commit -a
+
+# see change history
+git log -p | grep -A 2 ^@
+
+# man gittutorial  -- more stuff
