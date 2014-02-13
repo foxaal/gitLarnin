@@ -1,3 +1,5 @@
+# man gittutorial  -- more stuff
+
 # go to directory and start new project
 git init
 
@@ -16,4 +18,18 @@ git commit -a
 # see change history
 git log -p | grep -A 2 ^@
 
-# man gittutorial  -- more stuff
+# make branch
+git branch experimental
+
+# see all branches
+git branch
+ 
+# switch to experimental branch
+git checkout experimental
+
+# double check
+git branch  # asterisk will mark the branch you are on
+
+
+
+
