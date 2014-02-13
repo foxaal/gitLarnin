@@ -1,3 +1,37 @@
+WORK CYCLE
+==========
+mkdir <WORKING TREE>
+cd <WORKING TREE>
+git init		(makes .git in directory)
+edit <files> 		(change WORKING TREE)
+git diff HEAD		(diff WORKING TREE and HEAD)
+git diff 		(diff WORKING TREE and INDEX)
+git status		(show what has been modified)
+git add <files> 	(stage <files> in WORKING TREE to the INDEX staging area)
+git diff --cached	(diff INDEX and HEAD)
+git commit 		(permanentize -- move INDEX to HEAD)
+
+BRANCHING
+=========
+git branch		(show working branch)
+git branch brnch	(create branch)
+git checkout <branch>	(WORKING TREE now matches <branch>)
+git merge brnch		(merge branch back in)
+git add <files>
+git commit 
+or git commit -a
+
+HANDY COMMANDS
+==============
+git diff HEAD^..HEAD	(see last changes)
+git shortlog		(show the comments to the various commits)
+
+git log --pretty=oneline      (show commit IDs of recent commits)
+git diff ax34..xio3	(show diff between commit IDs)
+
+git log --stat --summary      (see changes -- most recent at top)
+
+
 # man gittutorial  -- more stuff
 
 # go to directory and start new project
@@ -30,6 +64,9 @@ git checkout experimental
 # double check
 git branch  # asterisk will mark the branch you are on
 
+# make changes on branch and stage
+git add <changed file[s]>
 
-
+# commit changes
+git commit -a
 
