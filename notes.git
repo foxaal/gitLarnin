@@ -1,3 +1,28 @@
+GITHUB
+======
+login to github.com
+click around and set up new repository (repository tab, green NEW button)
+it tells you some magic incantations to push your schtuff up to the "origin"
+> git remote add origin https://github.com/foxaal/gitLarnin.git
+> git push -u origin master
+
+Then it goads you into creating a README.md file (a "markdown" file)
+
+Then when you make changes on local machine and try to do the push thing again,
+it gives some fast-forward error bla bla bla mumbo jumbo.  That's because you
+forgot to synchronize your local (master) branch with the remote (origin) branch.
+
+So you do:
+> git fetch origin		# now you have origin in your WORKING TREE
+> git merge origin master  	# now you merged origin into master
+
+Shortcut would be:
+> git pull origin master
+
+Now you can do the push:
+> git push -u origin master
+
+
 WORK CYCLE
 ==========
 mkdir <WORKING TREE>
