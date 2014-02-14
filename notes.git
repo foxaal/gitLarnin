@@ -8,9 +8,10 @@ it tells you some magic incantations to push your schtuff up to the "origin"
 
 Then it goads you into creating a README.md file (a "markdown" file)
 
-Then when you make changes on local machine and try to do the push thing again,
+Then when you make changes on the local machine and try to do the push thing again,
 it gives some fast-forward error bla bla bla mumbo jumbo.  That's because you
 forgot to synchronize your local (master) branch with the remote (origin) branch.
+Of course, calling the remote repository the "origin" can cause confusion.
 
 So you do:
 > git fetch origin		# now you have origin in your WORKING TREE
