@@ -34,8 +34,12 @@ git diff HEAD		(diff WORKING TREE and HEAD)
 git diff 		(diff WORKING TREE and INDEX)
 git status		(show what has been modified)
 git add <files> 	(stage <files> in WORKING TREE to the INDEX staging area)
+git rm --cached <files> get rid of files from INDEX
+
 git diff --cached	(diff INDEX and HEAD)
 git commit 		(permanentize -- copy INDEX to HEAD)
+
+git ls-tree -r master --name-only  (see what is being tracked)
 
 BRANCHING
 =========
