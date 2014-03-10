@@ -47,7 +47,12 @@ git --work-tree=/home/ford/src/meteor-packages/<package> checkout HEAD -- .
 			 if you have PACKAGE_DIRS set to, in this case, the
 			 /home/ford/src/meteor-packages directory, and you
 			 have a package.js in the package, 
-			 $ meteor list   will now show the package 
+			 $ meteor list   will now show the package) 
+
+git log --pretty=oneline (see commit ids)
+git checkout <commit id> (look at a particular commit) 
+git checkout <branch>	(get back to where you were -- 
+    	     		 typically "git checkout master") 
 
 
 BRANCHING
